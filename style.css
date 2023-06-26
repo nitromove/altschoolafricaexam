@@ -352,7 +352,7 @@ input::placeholder {
   }
   
   footer .container .box {
-    flex-basis: 10%; /* Set the flex basis to 20% to make five divs on a row */
+    flex-basis: 10%;
     margin: 10px;
     display: flex;
     flex-direction: column;
