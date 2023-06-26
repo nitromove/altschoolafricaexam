@@ -7,7 +7,7 @@ body {
 }
 
 section {
-    background-image: url(./aurora.png);
+    background-image: url(assets/aurora.png);
     background-repeat: no-repeat;
 }
 
@@ -314,6 +314,7 @@ input::placeholder {
   display: flex;
   flex-direction: column;
   width: 50%;
+  font-size: 12px;
 }
 
 .minus>header {
@@ -332,15 +333,124 @@ input::placeholder {
 .minus::after {
     content: "-";
     position: absolute;
-    font-size: 25px;
+    font-size: 28px;
     bottom: 10px;
-    right: 370px;
-    top: 212rem;
+    right: 350px;
+    top: 219rem;
+  }
+
+  .one::after {
+    content: "+";
+    position: absolute;
+    font-size: 28px;
+    bottom: 10px;
+    right: 350px;
+    top: 226rem;
+  }
+  .two::after {
+    content: "+";
+    position: absolute;
+    font-size: 28px;
+    bottom: 10px;
+    right: 350px;
+    top: 230.5rem;
+  }
+  .three::after {
+    content: "+";
+    position: absolute;
+    font-size: 28px;
+    bottom: 10px;
+    right: 350px;
+    top: 233.5rem;
+  }
+  .fourth::after {
+    content: "+";
+    position: absolute;
+    font-size: 28px;
+    bottom: 10px;
+    right: 350px;
+    top: 236.5rem;
+  }
+  .five:after {
+    content: "+";
+    position: absolute;
+    font-size: 28px;
+    bottom: 10px;
+    right: 350px;
+    top: 239rem;
+  }
+  .six:after {
+    content: "+";
+    position: absolute;
+    font-size: 28px;
+    bottom: 10px;
+    right: 350px;
+    top: 242rem;
+  }
+  .seven:after {
+    content: "+";
+    position: absolute;
+    font-size: 28px;
+    bottom: 10px;
+    right: 350px;
+    top: 246.5rem;
+  }
+
+  
+
+  .eight:after {
+    content: "+";
+    position: absolute;
+    font-size: 28px;
+    bottom: 10px;
+    right: 350px;
+    top: 251rem;
+  }
+  .eight:after {
+    content: "+";
+    position: absolute;
+    font-size: 28px;
+    bottom: 10px;
+    right: 350px;
+    top: 253rem;
   }
 
   .revolution {
-    display: none;
+    position: relative;
+    background: url('assets/gradsix.png') no-repeat left top, url('assets/gradientwo.png') no-repeat left top,
+      url('assets/gradienthree.png') no-repeat center bottom;
+    background-size: contain;
+    background-position: left top, right top, center bottom;
+    text-align: center;
+    padding: 40px 0;
+    background-color: #1e3448;
   }
+
+  .revolution .revitem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+
+  .revolution .revitem p {
+    color: white;
+    font-size: xx-large;
+  }
+
+  .revolution .revitem .started {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+
+  
+
 
 
   footer .container {
@@ -374,7 +484,7 @@ input::placeholder {
   }
   
   footer .box h4 {
-    margin: 0;
+    margin: 10px 0;
   }
   
   footer .box ul {
@@ -396,3 +506,13 @@ input::placeholder {
     color: #666;
   }
   
+
+  .secondcontainer {
+    display: flex;
+    flex-basis: 33.3;
+    justify-content: center;
+    gap: 5%;
+  }
+  .secondcontainer h4 {
+    margin: 0 40px;
+  }
