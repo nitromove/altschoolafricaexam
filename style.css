@@ -6,9 +6,23 @@ body {
     font-size: 16px;
 }
 
-section {
+.hero {
     background-image: url(assets/aurora.png);
     background-repeat: no-repeat;
+}
+
+.optimizing {
+  position: relative;
+}
+
+#vectorth {
+  position: relative;
+  top: -50px;
+}
+
+
+.learn-more {
+  background-color: rebeccapurple;
 }
 
 nav {
@@ -132,7 +146,6 @@ li a {
     display: flex;
 gap: 5%;
     padding: 5.5%;
-    background-color: rgb(236, 245, 245);
     margin-top: -.55%;
 }
 
@@ -515,4 +528,13 @@ input::placeholder {
   }
   .secondcontainer h4 {
     margin: 0 40px;
+  }
+
+  .Pricing {
+    background-color: white;
+  }
+
+  #terms {
+    float: right;
+    margin-right: 50px;
   }
