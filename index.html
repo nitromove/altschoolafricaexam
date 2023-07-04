@@ -4,19 +4,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="assets/Logo.jpg">
   <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+  <title>Scissors</title>
 </head>
 
 <body>
   <section class="hero">
     <nav>
       <ul class="logo">
-        <li><img src="assets/Vector.png" alt="Vector"><img src="assets/Logo.jpg" /></li>
+       <img src="assets/Vector.png" alt="Vector"><img src="assets/Logo.jpg" />
       </ul>
       <ul class="links">
         <li><a href="#">My URLS</a></li>
-        <li><a href="#" class="features-link">Features</a></li>
+        <li><a href="#" class="features-link">Features
+          <select name="features" id="features" style="border: none; background-color: transparent;"><option value="Features"></option></select>
+        </a></li>
         <li><a href="#">Pricing</a></li>
         <li><a href="#">Analytics</a></li>
         <li><a href="#">FAQs</a></li>
@@ -33,9 +36,9 @@
         <img src="assets/Vector 3.jpg" alt="vector3" id="vectorth">
       </h1>
       
-      <p>Personalize your shortened URLs to align with your brand identity. Utilize custom slugs, branded links, and
+      <p style="margin-top: -80px;">Personalize your shortened URLs to align with your brand identity. Utilize custom slugs, branded links, and
         domain customization options to reinforce your brand presence and enhance user engagement.</p>
-      <section>
+      <section style="background-color: transparent;">
         <button class="signup">Sign Up</button>
         <button class="learn-more">Learn More</button>
       </section>
@@ -47,14 +50,12 @@
 
     <div class="information">
       <div>
-        <img src="assets/Vector (1).png" alt="Vector1" class="vector1">
-      </div>
-      <div>
-        <img src="assets/Frame 29546.png" alt="sseamless connection">
-      </div>
-      <div>
         <img src="assets/Vector 2.png" alt="Vector2" class="vector2">
       </div>
+      <div>
+        <img src="assets/Frame 29546.png" alt="sseamless connection" class="seamless">
+      </div>
+     
     </div>
 
     <div class="backgrounds">
@@ -271,61 +272,120 @@
       <header>
         <img src="assets/Line 70.png" alt="line">
         FAQs
+       
       </header>
-      <section>
-        <p class="infop">How does URL shortening work?</p>
-        <p class="textp">
-          URL shortening works by taking a long URL an creating a shorter,
-          condensed version that redirects to the original URL When a user
-          clicks on the shortened link, they are redirected to the intended
-          destination.
-        </p>
-      </section>
-      <div class="line"></div>
-    </div>
 
-    <div class="one">
-      <p>
-        Is it necessary to create an account to use the URL shortening
-      service?
-      </p>
-      <div class="line"></div>
-    </div>
-    <div class="two">
-     <p> Are the shortened links permanent? Will they expire?</p>
-      <div class="line"></div>
-    </div>
-    <div class="three">
-      Are there any limitations on the number of URLs I can shorten?
-      <div class="line"></div>
-    </div>
-    <div class="fourth">
-      Can I customize the shortened URLs to reflect my brand or content?
-      <div class="line"></div>
-    </div>
-    <div class="five">
-      Can I track the performance of my shortened URLs to reflect my brand
-      or content?
-      <div class="line"></div>
-    </div>
-    <div class="six">
-      Can I track the performance of my shortened URLs?
-      <div class="line"></div>
-    </div>
-    <div class="seven">
-     <p> How secure is the URL shortening service? Are the shortened links
-      protected against spam or malicious activity?</p>
-      <div class="line"></div>
-    </div>
-    <div class="eight">
-      <p>What is a QR code and what can it do?</p>
-      <div class="line"></div>
-    </div>
-    <div class="nine">
-      Is there any API available for integrating the URL shortening service
-      into my own applications or websites?
-      <div class="line"></div>
-    </div>
+      
+      <section>
+        <div class="question">
+          <p class="qac">How does URL shortening work?</p>
+          <span class="toggle">-</span>
+          
+        </div>
+        <div class="answer">
+          <p class="answer-text">
+            URL shortening works by taking a long URL and creating a shorter,
+            condensed version that redirects to the original URL. When a user
+            clicks on the shortened link, they are redirected to the intended
+            destination.
+          </p>
+          <div class="line"></div>
+        </div>
+      </section>
+
+      <section>
+        <div class="question">
+          <p class="qac">Is it necessary to create an account to use the URL shortening service?</p>
+          <span class="toggle">+</span>
+          
+        </div>
+          
+          <div class="line"></div>
+      </section>
+
+      <section>
+        <div class="question">
+          <p class="qac">Are the shortened links permanent? Will they expire?</p>
+          <span class="toggle">+</span>
+          
+        </div>
+          
+          <div class="line"></div>
+      </section>
+
+      <section>
+        <div class="question">
+          <p class="qac">Are there any limitations on the number of URLs I can shorten?</p>
+          <span class="toggle">+</span>
+          
+        </div>
+          
+          <div class="line"></div>
+      </section>
+      
+      <section>
+        <div class="question">
+          <p class="qac">Can I customize the shortened URLs to reflect my brand or content?</p>
+          <span class="toggle">+</span>
+          
+        </div>
+          
+          <div class="line"></div>
+      </section>
+      
+      <section>
+        <div class="question">
+          <p class="qac">Can I track the performance of my shortened URLs to reflect my brand or content?</p>
+          <span class="toggle">+</span>
+          
+        </div>
+          
+          <div class="line"></div>
+      </section>
+      
+      <section>
+        <div class="question">
+          <p class="qac">Can I track the performance of my shortened URLs?</p>
+          <span class="toggle">+</span>
+          
+        </div>
+          
+          <div class="line"></div>
+      </section>
+      
+      <section>
+        <div class="question">
+          <p class="qac">How secure is the URL shortening service? Are the shortened links protected against spam or malicious activity?</p>
+          <span class="toggle">+</span>
+          
+        </div>
+          
+          <div class="line"></div>
+      </section>
+      
+      <section>
+        <div class="question">
+          <p class="qac">What is a QR code and what can it do?</p>
+          <span class="toggle">+</span>
+          
+        </div>
+          
+          <div class="line"></div>
+      </section>
+
+      <section>
+        <div class="question">
+          <p class="qac">Is there any API available for integrating the URL shortening service into my own applications or websites?
+            gradsixgradeitgradsvn
+            Revolutionizing Link Optimization</p>
+          <span class="toggle">+</span>
+          
+        </div>
+          
+          <div class="line"></div>
+      </section>
+      
+    
   </div>
   </div>
 

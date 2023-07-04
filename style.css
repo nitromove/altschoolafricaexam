@@ -123,21 +123,24 @@ li a {
     margin-right: auto;
     align-items: center;
     flex-direction: column;
+  
 }
 
-.vector1 {
-    width: 30%;
-    margin-right: auto;
-    margin-left: auto;
+
+.seamless {
+  position: absolute;
+  margin-top: -300px;
+  right: 25%;
+  left: 25%;
 }
 
 .vector2 {
-    width: 30%;
-    margin-top: -20px;
+  position: relative;
+  left: -200px;
+  top: -50px;
 }
 
 .backgrounds {
-    margin-top: 5%;
     width: 100%;
     overflow: hidden;
 }
@@ -147,6 +150,9 @@ li a {
 gap: 5%;
     padding: 5.5%;
     margin-top: -.55%;
+    background-color: #F9FBFD;
+    margin-bottom: 5%;
+    
 }
 
 .smalldiv>p {
@@ -343,90 +349,34 @@ input::placeholder {
   margin-top: 0px;
 }
 
-.minus::after {
-    content: "-";
-    position: absolute;
-    font-size: 28px;
-    bottom: 10px;
-    right: 350px;
-    top: 219rem;
-  }
+.question {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-weight: 400;
+}
 
-  .one::after {
-    content: "+";
-    position: absolute;
-    font-size: 28px;
-    bottom: 10px;
-    right: 350px;
-    top: 226rem;
-  }
-  .two::after {
-    content: "+";
-    position: absolute;
-    font-size: 28px;
-    bottom: 10px;
-    right: 350px;
-    top: 230.5rem;
-  }
-  .three::after {
-    content: "+";
-    position: absolute;
-    font-size: 28px;
-    bottom: 10px;
-    right: 350px;
-    top: 233.5rem;
-  }
-  .fourth::after {
-    content: "+";
-    position: absolute;
-    font-size: 28px;
-    bottom: 10px;
-    right: 350px;
-    top: 236.5rem;
-  }
-  .five:after {
-    content: "+";
-    position: absolute;
-    font-size: 28px;
-    bottom: 10px;
-    right: 350px;
-    top: 239rem;
-  }
-  .six:after {
-    content: "+";
-    position: absolute;
-    font-size: 28px;
-    bottom: 10px;
-    right: 350px;
-    top: 242rem;
-  }
-  .seven:after {
-    content: "+";
-    position: absolute;
-    font-size: 28px;
-    bottom: 10px;
-    right: 350px;
-    top: 246.5rem;
-  }
+.question p {
+  margin: 0;
+  flex: 1;
+  font-size: large;
+}
 
+.answer-text {
+  font-size: small;
+}
+
+.toggle {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.line {
+  margin-top: 20px;
+  border: 1px solid #D6D6D6;
   
-
-  .eight:after {
-    content: "+";
-    position: absolute;
-    font-size: 28px;
-    bottom: 10px;
-    right: 350px;
-    top: 251rem;
-  }
-  .eight:after {
-    content: "+";
-    position: absolute;
-    font-size: 28px;
-    bottom: 10px;
-    right: 350px;
-    top: 253rem;
-  }
+}
 
   .revolution {
     position: relative;
